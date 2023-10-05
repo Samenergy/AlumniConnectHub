@@ -31,4 +31,18 @@ header{
     flex-direction: row;
     justify-content: space-between;
 }
+.welcome{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 
+}
+.welcome-section{
+    display: flex;
+    background-image: url(../AlumniConnectHub/img/FWbV2ygakAEPvcq.jpeg);
+    height: 500px;
+}
+.main-section img{
+    border: solid green;
+    
+}
