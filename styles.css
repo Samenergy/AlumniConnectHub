@@ -2,6 +2,8 @@ body{
     font-family: sans-serif;
     font-style: normal;
     margin: 0%;
+    overflow-x: hidden;
+    position: relative;
 
 }
 #main-section{
@@ -14,6 +16,10 @@ header{
     align-content: center;
     justify-content: space-between;
     align-items: center;
+    width: 1440px;
+    height: 90px;
+    padding-inline: 50px;
+    
 }
 .navbar{
     
@@ -25,24 +31,46 @@ header{
 .navbar a{
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 .navbar-main{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    right: 90px;
+    position: absolute;
+
 }
 .welcome{
     display: flex;
     align-items: center;
     flex-direction: column;
+    position: relative;
+    top: 200px;
 
 }
-.welcome-section{
-    display: flex;
-    background-image: url(../AlumniConnectHub/img/FWbV2ygakAEPvcq.jpeg);
-    height: 500px;
-}
-.main-section img{
-    border: solid green;
+.welcome h1{
     
+    display: flex;
+    text-align: center;
+    font-size: 70px;
+    color: black;
+    padding-inline: 20px;
+
+
 }
+.welcome p{
+    font-size: 20px;
+    color: black;
+    padding-inline: 50px;
+}
+.welcome-section {
+    display: flex;
+    background-image: linear-gradient(rgb(0, 46, 109), rgb(255, 255, 255)), url('../AlumniConnectHub/img/Capture.PNG');
+    height: 700px;
+    width: 1440px;
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
