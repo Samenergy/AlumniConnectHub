@@ -26,118 +26,100 @@
                     <p>Are you ready to embark on a journey of unforgettable experiences and exciting gatherings? </p>
                 </div>
                 <div class="search">
-                    <select>
+                    <select id="select" class="forms">
                         <option>Select Event type</option>
                         <option value="option1">Professional Events</option>
                         <option value="option2">Campus Events</option>
                       </select>
-                    <input type="date">
+                    <input class="forms" type="date">
 
-                    <button>Find Event</button>
+                    <button class="button">Find Event</button>
                 </div>
             </section>
-            <section>
-                <div class="Filters">
+            <section class="main-event">
+                <div class="filters">
                     <h3>Filters</h3>
-                    <p>Location</p>
-                    <p><input type="radio">Near Me</p>
+                    <h4>Location</h4>
+                    <p><input type="radio" checked>Near Me</p>
                     <p><input type="radio">Remote Event</p>
                     <p><input type="radio">Exact Location</p>
-                    <p><input type="radio">Within 15 Km<</p>
+                    <p><input type="radio">Within 15 Km</p>
                     <p><input type="radio">Within 30 km</p>
                     <p><input type="radio">Within 50 Km</p>
                 </div>
                 <div class="All-Events">
                     <h2>All Events</h2>
                     <div class="first-event">
-                        <img src="" alt="">
-                        <div>
-                            <p>Event Name</p>
-                            <p>Organiser</p>
+                        <img src="../AlumniConnectHub/img/pexels-luis-quintero-2774556.jpg" alt="">
+                        <div class="info-event">
+                            <h3>Event Name</h3>
+                            <h4>Organiser</h4>
                             <div>
                                 details
                             </div>
                             <blockquote>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat.
+                                labore et dolore magna aliqua.
                             </blockquote>
                         </div>
                     </div>
                     <div class="first-event">
-                        <img src="" alt="">
-                        <div>
-                            <p>Event Name</p>
-                            <p>Organiser</p>
+                        <img src="../AlumniConnectHub/img/pexels-pavel-danilyuk-8761559.jpg" alt="">
+                        <div class="info-event">
+                            <h3>Event Name</h3>
+                            <h4>Organiser</h4>
                             <div>
                                 details
                             </div>
                             <blockquote>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat.
+                                labore et dolore magna aliqua. 
+                        </div>
+                    </div>
+                    <div class="first-event">
+                        <img src="../AlumniConnectHub/img/pexels-icsa-1709003.jpg" alt="">
+                        <div class="info-event">
+                            <h3>Event Name</h3>
+                            <h4>Organiser</h4>
+                            <div>
+                                details
+                            </div>
+                            <blockquote>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. 
                             </blockquote>
                         </div>
                     </div>
                     <div class="first-event">
-                        <img src="" alt="">
-                        <div>
-                            <p>Event Name</p>
-                            <p>Organiser</p>
+                        <img src="../AlumniConnectHub/img/pexels-matheus-bertelli-3321793.jpg" alt="">
+                        <div class="info-event">
+                            <h3>Event Name</h3>
+                            <h4>Organiser</h4>
                             <div>
                                 details
                             </div>
                             <blockquote>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat.
-                            </blockquote>
-                        </div>
-                    </div>
-                    <div class="first-event">
-                        <img src="" alt="">
-                        <div>
-                            <p>Event Name</p>
-                            <p>Organiser</p>
-                            <div>
-                                details
-                            </div>
-                            <blockquote>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat.
-                            </blockquote>
-                        </div>
-                    </div>
-                    <div class="first-event">
-                        <img src="" alt="">
-                        <div>
-                            <p>Event Name</p>
-                            <p>Organiser</p>
-                            <div>
-                                details
-                            </div>
-                            <blockquote>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat.
+                                labore et dolore magna aliqua.
                             </blockquote>
                         </div>
                     </div>
                 </div>
-                <div class="related-events">
-                    <p>Related Events</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. </p>
-                    <img src="" alt="">
-                    <button>Learn More</button>
-                </div>
-                <div class="related-events">
-                    <p>Email me for New vents</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. </p>
-                    <p><input type="email"></p>
-                    <button>Subscribe</button>
+                <div id="other-events" class="related-events">
+                    <div class="extra-event">
+                        <p>Related Events</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. </p>
+                        <img src="../AlumniConnectHub/img/show.jpg" alt="">
+                        <button class="button">Learn More</button>
+                    </div>
+                    <div class="extra-event">
+                        <p><b>Email me for New vents</b></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. </p>
+                        <p><input type="email"></p>
+                        <button class="button">Subscribe</button>
+                    </div>
                 </div>
             </section>
             <section class="contact">
