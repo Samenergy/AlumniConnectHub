@@ -13,7 +13,7 @@
             </div>
             <div class="navbar-main">
                 <p class="navbar"><a href="">Home</a></p>
-                <p class="navbar"><a href="">Event</a></p>
+                <p class="navbar"><a href="">Events</a></p>
                 <p class="navbar"><a href="">About Us</a></p>
                 <p class="navbar"><a href="">Contact Us</a></p>
             </div>
@@ -21,15 +21,163 @@
         <main>
             <section class="welcome-section">
                 <div class="welcome">
-                    <h1>Welcome to ALUmni Connect Hub</h1>
-                    <p>Your gateway to stay connected with your alma mater!
-                        Our website aims to bridge the gap between alumni and the university by providing a platform to explore and register for upcoming events.</p>
-                    <button class="button">Join Now</button>
+                    <h1 class="welcome1">Are you an ALU student?</h1>
+                    <h1 class="welcome2">Find your <span>new Event</span>  today</h1>
+                    <p>Are you ready to embark on a journey of unforgettable experiences and exciting gatherings? </p>
+                </div>
+                <div class="search">
+                    <select>
+                        <option>Select Event type</option>
+                        <option value="option1">Professional Events</option>
+                        <option value="option2">Campus Events</option>
+                      </select>
+                    <input type="date">
+
+                    <button>Find Event</button>
                 </div>
             </section>
+            <section>
+                <div class="Filters">
+                    <h3>Filters</h3>
+                    <p>Location</p>
+                    <p><input type="radio">Near Me</p>
+                    <p><input type="radio">Remote Event</p>
+                    <p><input type="radio">Exact Location</p>
+                    <p><input type="radio">Within 15 Km<</p>
+                    <p><input type="radio">Within 30 km</p>
+                    <p><input type="radio">Within 50 Km</p>
+                </div>
+                <div class="All-Events">
+                    <h2>All Events</h2>
+                    <div class="first-event">
+                        <img src="" alt="">
+                        <div>
+                            <p>Event Name</p>
+                            <p>Organiser</p>
+                            <div>
+                                details
+                            </div>
+                            <blockquote>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="first-event">
+                        <img src="" alt="">
+                        <div>
+                            <p>Event Name</p>
+                            <p>Organiser</p>
+                            <div>
+                                details
+                            </div>
+                            <blockquote>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="first-event">
+                        <img src="" alt="">
+                        <div>
+                            <p>Event Name</p>
+                            <p>Organiser</p>
+                            <div>
+                                details
+                            </div>
+                            <blockquote>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="first-event">
+                        <img src="" alt="">
+                        <div>
+                            <p>Event Name</p>
+                            <p>Organiser</p>
+                            <div>
+                                details
+                            </div>
+                            <blockquote>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="first-event">
+                        <img src="" alt="">
+                        <div>
+                            <p>Event Name</p>
+                            <p>Organiser</p>
+                            <div>
+                                details
+                            </div>
+                            <blockquote>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <div class="related-events">
+                    <p>Related Events</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. </p>
+                    <img src="" alt="">
+                    <button>Learn More</button>
+                </div>
+                <div class="related-events">
+                    <p>Email me for New vents</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. </p>
+                    <p><input type="email"></p>
+                    <button>Subscribe</button>
+                </div>
+            </section>
+            <section class="contact">
+                <h1>Contact Us</h1>
+                <h2>Event Reservation Form</h2>
+                <form action="submit_reservation.php" method="post">
+                    <label for="full_name">Full Name:</label>
+                    <input type="text" id="full_name" name="full_name" required><br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="event">Select Event:</label>
+                    <select id="event" name="event" required>
+                        <option value="Career Mastery Workshop">Career Mastery Workshop</option>
+                        <option value="Leadership Seminar">Leadership Seminar</option>
+                        <option value="Resume Building Bootcamp">Resume Building Bootcamp</option>
+                        <option value="Homecoming 2023">Homecoming 2023</option>
+                        <option value="Alumni Football Match">Alumni Football Match</option>
+                        <option value="Student-Alumni Mixer">Student-Alumni Mixer</option>
+                    </select><br><br>
+
+                    <label for="message">Additional Message (optional):</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+                    <input type="submit" value="Reserve My Slot">
+                </form>
+            </section>
         </main>
-
-
+        <footer>
+            <h1>About Us</h1>
+            <div class="member">
+                <img src="" alt="">
+                <div class="member-info">
+                    <h2>John Doe</h2>
+                    <p>
+                        John is a web developer with expertise in HTML, CSS, and JavaScript. 
+                    </p>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
