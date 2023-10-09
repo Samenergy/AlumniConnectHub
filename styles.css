@@ -120,11 +120,12 @@ span{
 
 }
 .filters{
-    border: solid green;
+    
     padding: 24px;
-    height: 300px;
+    height: auto;
     width: 300px;
-
+    display: flex;
+    flex-direction: column;
 }
 .filters h1{
     color: #141414;
@@ -151,7 +152,7 @@ span{
 .main-event{
     display: flex;
     width: 100%;
-    border: solid red;
+  
 
 }
 #other-events{
@@ -166,10 +167,10 @@ span{
 
 }
 .All-Events{
-    border: solid greenyellow;
-    padding-inline: 24px;
-    width: 1000px;
-    height: 1164px;
+    
+    padding-inline: 20px;
+    width: 700px;
+    height: auto;
     display: flex;
     flex-direction: column;
 }
@@ -181,9 +182,15 @@ span{
     word-wrap: break-word;
 }
 .extra-event{
-    width: 100%;
+    width: 200px;
     height: auto;
-    border: solid aqua;
+}
+.extra-event img{
+    width: 200px;
+    height: 190px;
+    padding: 10px;
+    margin-left: -12px;
+
 }
 .first-event img{
     width: 180px;
@@ -206,14 +213,14 @@ blockquote{
     height: auto;
     left: 10px;
     margin-left: 0px;
-    margin-top: 0px;
+    margin-top: 20px;
     
 }
 .info-event{
     flex-direction: column;
-    
     height: 165px;
     width: 100%;
+
 
 }
 .info-event h3{
@@ -222,6 +229,7 @@ blockquote{
     font-weight: 500;
     line-height: 36px;
     word-wrap: break-word;
+    margin-top: 20px;
 }
 .info-event h4{
     color: #141414;
@@ -229,4 +237,29 @@ blockquote{
     font-weight: 400;
     line-height: 27px;
     word-wrap: break-word;
+    margin-top: -20px;
+}
+.icons img{
+    width: 16px;
+    height: 16px;
+    display: flex;
+    margin-top: -20px;
+}
+.icons{
+    display: flex;
+    height: 24px;
+    margin-top: -20px;
+}
+.icons p{
+    color: black;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+    width: auto;
+    height: 24px;
+    display: flex;
+    padding-inline: 20px;
+
+
 }
