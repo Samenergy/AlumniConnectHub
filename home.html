@@ -132,44 +132,40 @@
                     </div>
                 </div>
             </section>
-            <section class="contact">
-                <h1>Contact Us</h1>
-                <h2>Event Reservation Form</h2>
-                <form action="submit_reservation.php" method="post">
-                    <label for="full_name">Full Name:</label>
-                    <input type="text" id="full_name" name="full_name" required><br><br>
+            <section class="information">
+                <div class="contact">
+                    <h1>Get in<span>Touch</span></h1>
+                    <h2>Enim tempor eget pharetra facilisis sed maecenas adipiscing. Eu leo molestie vel, ornare non id blandit netus.</h2>
+                    <form>
+                        <p><input type="text" class="info" placeholder="Name" required></p>
+                        <p><input type="email" class="info" placeholder="Email"></p>
+                        <select class="info">
+                            <option value="" disabled selected>Select Event</option>
+                            <option value="Career Mastery Workshop">Career Mastery Workshop</option>
+                            <option value="Leadership Seminar">Leadership Seminar</option>
+                            <option value="Resume Building Bootcamp">Resume Building Bootcamp</option>
+                            <option value="Homecoming 2023">Homecoming 2023</option>
+                            <option value="Alumni Football Match">Alumni Football Match</option>
+                            <option value="Student-Alumni Mixer">Student-Alumni Mixer</option>
+                        </select><br><br>
+                        <p><textarea class="info" placeholder="Additional Meassage"></textarea></p>
 
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required><br><br>
-
-                    <label for="event">Select Event:</label>
-                    <select id="event" name="event" required>
-                        <option value="Career Mastery Workshop">Career Mastery Workshop</option>
-                        <option value="Leadership Seminar">Leadership Seminar</option>
-                        <option value="Resume Building Bootcamp">Resume Building Bootcamp</option>
-                        <option value="Homecoming 2023">Homecoming 2023</option>
-                        <option value="Alumni Football Match">Alumni Football Match</option>
-                        <option value="Student-Alumni Mixer">Student-Alumni Mixer</option>
-                    </select><br><br>
-
-                    <label for="message">Additional Message (optional):</label><br>
-                    <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
-
-                    <input type="submit" value="Reserve My Slot">
-                </form>
+                        <p><input type="submit"  class="button" value="Send"></p>
+                    </form>
+                </div>
+                <div class="about-me">
+                    <h1>Hello, I'm</h1>
+                    <div class="member">
+                        <img src="" alt="">
+                        <div class="member-info">
+                            <h2>Samuel Dushime</h2>
+                            <p>
+                                John is a web developer with expertise in HTML, CSS, and JavaScript. 
+                            </p>
+                    </div>
+                </div>
             </section>
         </main>
-        <footer>
-            <h1>About Us</h1>
-            <div class="member">
-                <img src="" alt="">
-                <div class="member-info">
-                    <h2>John Doe</h2>
-                    <p>
-                        John is a web developer with expertise in HTML, CSS, and JavaScript. 
-                    </p>
-            </div>
-        </footer>
     </div>
 </body>
 </html>
