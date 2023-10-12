@@ -269,6 +269,10 @@ blockquote{
     word-wrap: break-word;
     margin-top: 20px;
 }
+.info-event h3 a{
+    text-decoration: none;
+    color: #141414;
+}
 .info-event h4{
     color: #141414;
     font-size: 18px;
@@ -280,7 +284,7 @@ blockquote{
 .info-event h6{
     width: 70px;
     margin-top: -48px;
-    margin-left: 150px;
+    margin-left: 350px;
     color: #d00d2d;
 }
 .searchbox{
@@ -288,6 +292,7 @@ blockquote{
     justify-content: space-between;
     align-items: center;
     margin-right: 150px;
+    margin-top: 50px;
 }
 .searchbox a{
     text-decoration: none;
